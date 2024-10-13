@@ -83,3 +83,10 @@ body {
 .comment-section strong {
   color: #3897f0;
 }
+
+.caption-section {
+  border: 1px solid grey;
+  font-size: 14px; 
+  padding: 1px;
+  padding-left: 3px; 
+}
