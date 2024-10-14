@@ -29,6 +29,11 @@ body {
   flex: 1;
 }
 
+.hashtag-section {
+  font-weight: bold;
+  color: #3897f0;
+}
+
 .profile-info h1 {
   font-size: 28px;
   font-weight: 600;
