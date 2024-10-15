@@ -116,3 +116,16 @@ body {
   font-weight: bold;
   color: rgb(101, 103, 228);
 }
+
+@media screen and (max-width: 768px) {
+  .profile-grid {
+    grid-template-columns: 1fr; /* One post per row */
+    gap: 15px; /* Add some spacing between posts */
+    padding: 10px; /* Optional padding on smaller screens */
+  }
+
+  .grid-item {
+    width: 100%; /* Make sure each grid item spans the full width */
+    margin: 0 auto; /* Center the grid item horizontally */
+  }
+}
